@@ -14,7 +14,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <AuthProviders>
      <QueryClientProvider client={queryClient}>
-       <div className="bg-gray-50 text-black">
+       <div className="bg-white text-black">
         <RouterProvider router={router} />
 
         {/* ✅ Toast Container (ONE TIME ONLY) */}
